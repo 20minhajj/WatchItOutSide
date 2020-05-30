@@ -1,41 +1,65 @@
 body {
-    overflow-x: hidden;
-  }
-  
-  /* NAVIGATION-START */
-  .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
-    background: rgba(0, 0, 0, 0.6) !important;
-  }
-  
-  .navbar-brand img {
-    height: 2rem;
-  }
-  
-  .navbar-nav li {
-    padding-right: 0.7rem;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
-    padding-top: 0.8rem;
-  }
-  /* ff3d54 */
-  /* 7a101c */
-  .navbar-dark .navbar-nav .nav-link:hover,
-  .navbar-dark .navbar-nav .nav-link:active {
-    color: #7a101c;
-  }
-  
-  /* NAVIGATION-END */
-  
-  /* slider */
-  
-  .carousel-item{
-    height: 100vh;
-  }
-  
-  
+  overflow-x: hidden;
+}
+
+/* NAVIGATION-START */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  padding-top: 0.8rem;
+}
+/* ff3d54 */
+/* 7a101c */
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
+  color: #7a101c;
+}
+
+/* NAVIGATION-END */
+
+/* Landing */
+
+.container-fluid {
+  height: 100vh;
+  background-image: url("./images/pic5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron {
+  position: absolute;
+  top: 10%;
+  background: rgba(20, 0, 0, 0.6) !important;
+}
+.lead {
+  color: #7a101c;
+  font-weight: 700;
+}
+.display-1 {
+  font-family: "Piedra", cursive;
+  color: #ff3d54;
+}
+.btn-primary {
+  background-color: #7a101c;
+}
+.btn-primary:hover {
+  background-color: #ff3d54;
+}
+b {
+  color: #ff3d54;
+}
