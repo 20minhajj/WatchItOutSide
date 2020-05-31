@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>WatchItOutSide</title>
   </head>
+
   <body data-spy="scroll" data-target="#navbarContent">
     <!-- Start-Home -->
     <div id="home">
@@ -43,19 +44,19 @@
         <div id="navbarContent" class="collapse navbar-collapse">
           <!-- nav-list -->
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item " >
               <a class="nav-link" href="#home">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="#listings">Listings</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="#newsFeed">News Feed</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="#ticket">Ticket</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="#contact">contact</a>
             </li>
           </ul>
@@ -63,7 +64,7 @@
       </nav>
 
       <!-- landing start -->
-      <div class="container-fluid">
+      <div class="container-fluid back">
         <div class="jumbotron">
           <h1 class="display-1">Watch It Outside</h1>
           <p class="lead">
@@ -83,7 +84,419 @@
     <!-- End home -->
 
     <!-- Start-Listings -->
-    <div id="listings"></div>
+    <div id="listings">
+      <ul
+        class="nav nav-pills mb-3 justify-content-center"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link day active"
+            id="pills-home-tab"
+            data-toggle="pill"
+            href="#day1"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+            >5 <sup>th</sup></a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link day"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            href="#day2"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >6 <sup>th</sup></a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link day"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#day3"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >7 <sup>th</sup></a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link day"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#day4"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >8 <sup>th</sup></a
+          >
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <!-- day1 -->
+        <div
+          class="tab-pane fade show active"
+          id="day1"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+          <div class="card-deck">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_SY1000_CR0,0,631,1000_AL_.jpg"
+                class="card-img-top"
+                alt="1971"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">1971</h5>
+                <p class="card-text">
+                  April 6th, 1917. As a regiment assembles to wage war deep in
+                  enemy territory, two soldiers are assigned to race against
+                  time and deliver a message that will stop 1,600 men from
+                  walking straight into a deadly trap.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 1h 59min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="parasite"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Parasite (2019)</h5>
+                <p class="card-text">
+                  Greed and class discrimination threaten the newly formed
+                  symbiotic relationship between the wealthy Park family and the
+                  destitute Kim clan.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 12min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BY2U1ZTU4OWItNGU2MC00MTg1LTk4NzUtYTk3ODhjYjI0MzlmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,670,1000_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Last Dance</h5>
+                <p class="card-text">
+                  Charting the rise of the 1990's Chicago Bulls, led by Michael
+                  Jordan, one of the most notable dynasties in sports history.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 1h 00min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Joker (2019)</h5>
+                <p class="card-text">
+                  In Gotham City, mentally troubled comedian Arthur Fleck is
+                  disregarded and mistreated by society. He then embarks on a
+                  downward spiral of revolution and bloody crime. This path
+                  brings him face-to-face with his alter-ego: the Joker.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 2min</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Day1 end -->
+
+        <!-- Day2 start -->
+        <div
+          class="tab-pane fade"
+          id="day2"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+        >
+          <div class="card-deck">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+                class="card-img-top"
+                alt="1971"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Avengers: Endgame (2019)</h5>
+                <p class="card-text">
+                  After the devastating events of Avengers: Infinity War (2018),
+                  the universe is in ruins. With the help of remaining allies,
+                  the Avengers assemble once more in order to reverse Thanos'
+                  actions and restore balance to the universe.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 3h 1min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMTE5NWUyMmYtMWE1My00ZDhiLWExZjEtMGJjYTA0OGYwZjIwXkEyXkFqcGdeQXVyODQ5NDUwMDk@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="parasite"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Paatal Lok</h5>
+                <p class="card-text">
+                  A down and out cop lands the case of a lifetime when four
+                  suspects are nabbed in the assassination attempt of a
+                  journalist. The pursuit of it leads him to 'Paatal Lok', and
+                  to shocking discoveries in the past of the four suspects.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 44min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,643,1000_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Back to the Future (1985)</h5>
+                <p class="card-text">
+                  Marty McFly, a 17-year-old high school student, is
+                  accidentally sent thirty years into the past in a
+                  time-traveling DeLorean invented by his close friend, the
+                  eccentric scientist Doc Brown.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 1h 56min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Godfather (1972)</h5>
+                <p class="card-text">
+                  The aging patriarch of an organized crime dynasty transfers
+                  control of his clandestine empire to his reluctant son.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 55min</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Day2 end -->
+
+        <!-- Day3 start -->
+
+        <div
+          class="tab-pane fade"
+          id="day3"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="card-deck">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BZDcxOGI0MDYtNTc5NS00NDUzLWFkOTItNDIxZjI0OTllNTljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="1971"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Money Heist</h5>
+                <p class="card-text">
+                  An unusual group of robbers attempt to carry out the most
+                  perfect robbery in Spanish history - stealing 2.4 billion
+                  euros from the Royal Mint of Spain.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 1h 10min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BNzc4YjM4ZTMtZDc3Ny00ODIxLWJkMzktMGIxOTBhZGY1YTYyXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_UY268_CR16,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="parasite"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Space Force</h5>
+                <p class="card-text">
+                  The people tasked with creating a sixth branch of the armed
+                  services: The Space Force
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 30min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR5,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Breaking Bad</h5>
+                <p class="card-text">
+                  A high school chemistry teacher diagnosed with inoperable lung
+                  cancer turns to manufacturing and selling methamphetamine in
+                  order to secure his family's future.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 49min </small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BZTM4ODA5MWUtMzA2OC00MGZmLTg3NGEtZTFhNDhmMDgxYjViXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Defending Jacob</h5>
+                <p class="card-text">
+                  The limited drama series is a gripping, character-driven
+                  thriller based on the 2012 New York Times best selling novel
+                  of the same name by William Landay. An assistant DA's world is
+                  shattered when his beloved son gets charged with murder.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 45min</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Day3 end -->
+
+        <!-- Day4 start -->
+        <div
+          class="tab-pane fade"
+          id="day4"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="card-deck">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="1971"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Knives Out (2019)</h5>
+                <p class="card-text">
+                  A detective investigates the death of a patriarch of an
+                  eccentric, combative family.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 10min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMGI4YTIxMDQtNDlmNC00ZDJhLWIyZGItM2QyODRiMTEzN2ViXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="parasite"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Public Enemies</h5>
+                <p class="card-text">
+                  The Feds try to take down notorious American gangsters John
+                  Dillinger, Baby Face Nelson and Pretty Boy Floyd during a
+                  booming crime wave in the 1930s.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 20min</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Inglourious Basterds</h5>
+                <p class="card-text">
+                  In Nazi-occupied France during World War II, a plan to
+                  assassinate Nazi leaders by a group of Jewish U.S. soldiers
+                  coincides with a theatre owner's vengeful plans for the same.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 33min </small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BNDc0YTQ5NGEtM2NkYS00MWRhLThiNzAtNmY3NWU3YzNkMjIyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+                class="card-img-top"
+                alt="last_dance"
+                height="300"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Heat</h5>
+                <p class="card-text">
+                  A group of professional bank robbers start to feel the heat
+                  from police when they unknowingly leave a clue at their latest
+                  heist.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Duration: 2h 50min</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Day4 end -->
+      </div>
+    </div>
+
     <!-- End Listings -->
 
     <!-- Start-Newsfeed -->
