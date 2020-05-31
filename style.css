@@ -32,9 +32,9 @@ body {
 
 /* NAVIGATION-END */
 
-/* Landing */
+/* Landing Start */
 
-.container-fluid {
+.back {
   height: 100vh;
   background-image: url("./images/pic5.jpg");
   background-repeat: no-repeat;
@@ -63,3 +63,21 @@ body {
 b {
   color: #ff3d54;
 }
+/* Landing End */
+
+/* Listing Start */
+
+#listings {
+  height: 100vh;
+  /* background: rgba(20, 0, 0, 0.6) !important;; */
+}
+.nav-pills {
+  /* position: absolute; */
+  padding-top: 5%;
+}
+
+.day {
+  color: black;
+}
+
+/* Listing End */
