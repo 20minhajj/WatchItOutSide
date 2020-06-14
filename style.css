@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden;
 }
+.title {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 40px;
+  padding-top: 3.5%;
+}
 
 /* NAVIGATION-START */
 .navbar {
@@ -67,17 +73,142 @@ b {
 
 /* Listing Start */
 
-#listings {
-  height: 100vh;
-  /* background: rgba(20, 0, 0, 0.6) !important;; */
-}
-.nav-pills {
-  /* position: absolute; */
-  padding-top: 5%;
+#listings,
+#ticket {
+  background-color: #130e0e;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 10px;
 }
 
-.day {
+.card {
+  background-color: #16090b;
+  color: #ffffff;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #7a101c;
+  font-size: 25px;
+}
+
+.card-footer {
+  background-color: rgb(61, 9, 9);
+}
+
+small {
+  font-size: 15px;
+}
+
+.text-muted {
+  color: #ffffff !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ff3d54;
   color: black;
 }
 
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: #ff3d54;
+  text-decoration: none;
+}
+
 /* Listing End */
+
+/* NewsFeed Start */
+
+#newsFeed {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #1f1e1e;
+}
+
+.fa-hand-point-right {
+  font-size: 30px;
+  color: #7a101c;
+}
+.fsize {
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.container h3 {
+  padding-bottom: 30px;
+}
+
+/* NewsFeed End */
+
+/* Contact start */
+#contact {
+  /* padding-top: 10%; */
+  background-color: #181616; /*#130e0e*/
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 20px;
+  background: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  background-color: #1f1e1e;
+  color: white;
+}
+label,
+legend {
+  font-weight: 550;
+  font-size: 20px;
+  color: #7a101c;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ff3d54;
+}
+button[type="submit"] {
+  padding: 16px;
+  font-size: 20px;
+}
+
+.fab {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.footer-copyright {
+  background-color: #130e0e;
+  color: #ffffff;
+}
+
+.banner {
+  width: auto;
+}
+.unique-color-dark {
+  background-color: #1f1e1e; /*#130e0e*/
+  color: #ffffff;
+}
+.fa-facebook-f {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-linkedin-in {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #833ab4;
+}
+
+/* Contact End */
