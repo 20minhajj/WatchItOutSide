@@ -51,6 +51,8 @@ body {
   position: absolute;
   top: 10%;
   background: rgba(20, 0, 0, 0.6) !important;
+  padding:0px;
+  margin-bottom: 0px;
 }
 .lead {
   color: #7a101c;
