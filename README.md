@@ -1,7 +1,7 @@
-# WatchItOutSide
+# WatchItOutSide.
 Static app for movie event
 
-##Technologies used.
+## Technologies used.
 <ol>
 <li>HTML</li>
 <li>CSS</li>
